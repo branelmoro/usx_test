@@ -1,0 +1,23 @@
+{
+  "name": "UpStox-Trade-Test",
+  "version": "0.0.1",
+  "description": "OHLC Candle stick Generator",
+  "author": "Branel Moro <branelmoro@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint \"./src/**/*.js\" --fix",
+    "start": "node src/main.js",
+    "test": "mocha \"./test/**/*.spec.js\""
+  },
+  "dependencies": {
+    "n-readlines": "^1.0.0",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.5.0",
+    "mocha": "^8.0.1",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
+  }
+}
